@@ -1,0 +1,128 @@
+/* -------------------------------------------------------------------------- */
+/*                                Hero Section                                */
+/* -------------------------------------------------------------------------- */
+#homepage-hero-image {
+  object-position: center top;
+}
+@media (max-width: 1200px) {
+  #homepage-hero-image {
+    object-position: -150px 0px;
+    width: 120%;
+  }
+}
+@media (max-width: 600px) {
+  #homepage-hero-image {
+    object-position: -200px 0px;
+  }
+}
+@media (max-width: 450px) {
+  #homepage-hero-image {
+    object-position: -300px 0px;
+  }
+}
+@media (max-width: 350px) {
+  #homepage-hero-image {
+    object-position: -320px 0px;
+  }
+}
+#mens-top-banner img.main-image {
+  top: 0;
+  object-position: 60px -40px;
+  z-index: 10;
+}
+@media (max-width: 450px) {
+  #mens-top-banner img.main-image {
+    object-position: 60px -40px;
+    width: 120%;
+  }
+}
+@media (max-width: 350px) {
+  #mens-top-banner img.main-image {
+    object-position: 40px -20px;
+    width: 140%;
+  }
+}
+#womens-top-banner img.main-image {
+  top: 0;
+  object-position: 0px -60px;
+  z-index: 10;
+  width: 450px;
+  left: auto;
+  right: -100px;
+}
+@media (max-width: 450px) {
+  #womens-top-banner img.main-image {
+    object-position: 0px -40px;
+    width: 120%;
+  }
+}
+@media (max-width: 350px) {
+  #womens-top-banner img.main-image {
+    object-position: 40px -20px;
+    width: 140%;
+  }
+}
+#gear-top-banner img.main-image {
+  top: 0;
+  object-position: -40px -150px;
+  z-index: 10;
+  filter: drop-shadow(0 0 50px rgba(0, 0, 0, 0.5)) contrast(150%);
+  width: 150%;
+}
+@media (max-width: 450px) {
+  #gear-top-banner img.main-image {
+    object-position: 0px -40px;
+  }
+}
+/* -------------------------------------------------------------------------- */
+/*                             Hot Product Section                            */
+/* -------------------------------------------------------------------------- */
+#hot-product-wrapper {
+  height: 400px;
+}
+#hot-product-wrapper .image1 {
+  position: absolute;
+  z-index: 5;
+  width: 400px;
+  top: -300px;
+  right: 0;
+  filter: drop-shadow(0 0 50px rgba(0, 0, 0, 0.5)) contrast(150%);
+}
+#hot-product-wrapper .image2 {
+  position: absolute;
+  z-index: 5;
+  width: 450px;
+  top: -350px;
+  right: 100px;
+  filter: drop-shadow(0 0 50px rgba(0, 0, 0, 0.5)) contrast(130%);
+}
+#hot-product-wrapper .background {
+  filter: saturate(60%);
+}
+@media (max-width: 600px) {
+  #hot-product-wrapper {
+    height: auto;
+    padding: 20px;
+  }
+}
+@media (max-width: 350px) {
+  #hot-product-wrapper {
+    height: auto;
+    padding: 10px;
+  }
+}
+#homepage-hot-product-image {
+  object-position: center top;
+}
+@media (max-width: 990px) {
+  #homepage-hot-product-image {
+    object-position: 20% top;
+    width: 120%;
+  }
+}
+@media (max-width: 450px) {
+  #homepage-hot-product-image {
+    object-position: 40% top;
+    width: 140%;
+  }
+}

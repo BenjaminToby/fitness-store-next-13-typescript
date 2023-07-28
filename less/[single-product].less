@@ -1,0 +1,44 @@
+@import "./constants";
+
+.image-thumbnail-wrapper {
+    overflow-x: auto;
+
+    .image-thumbnail {
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        &.active {
+            pointer-events: none;
+            opacity: 0.2;
+        }
+    }
+
+    @media @media_lg {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+.target-image-wrapper {
+    flex-grow: 1;
+    max-height: 700px;
+    position: relative;
+    height: 700px;
+    display: flex;
+
+    @media @media_lg {
+        width: 100%;
+    }
+
+    @media @media_md {
+        height: 500px;
+    }
+
+    @media @media_sm {
+        height: 450px;
+    }
+}

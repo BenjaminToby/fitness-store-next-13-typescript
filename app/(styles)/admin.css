@@ -1,0 +1,26 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid rgba(24, 21, 21, 0.1);
+  min-width: 250px;
+  max-width: 250px;
+}
+aside a {
+  color: #181515;
+}
+aside a:hover {
+  color: #f33c3c;
+}
+aside a.active {
+  color: #181515;
+  font-weight: 700;
+}
+@media (max-width: 1200px) {
+  aside {
+    max-width: 100%;
+    min-width: none;
+  }
+}

@@ -1,0 +1,42 @@
+.image-thumbnail-wrapper {
+  overflow-x: auto;
+}
+.image-thumbnail-wrapper .image-thumbnail {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.image-thumbnail-wrapper .image-thumbnail:hover {
+  opacity: 0.5;
+}
+.image-thumbnail-wrapper .image-thumbnail.active {
+  pointer-events: none;
+  opacity: 0.2;
+}
+@media (max-width: 990px) {
+  .image-thumbnail-wrapper {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+.target-image-wrapper {
+  flex-grow: 1;
+  max-height: 700px;
+  position: relative;
+  height: 700px;
+  display: flex;
+}
+@media (max-width: 990px) {
+  .target-image-wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .target-image-wrapper {
+    height: 500px;
+  }
+}
+@media (max-width: 450px) {
+  .target-image-wrapper {
+    height: 450px;
+  }
+}

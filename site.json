@@ -1,0 +1,64 @@
+{
+    "siteName": "Base Wears",
+    "currency": {
+        "symbol": "$",
+        "code": "USD",
+        "multiplier": 1,
+        "icon": "/images/united-states.svg",
+        "country": "United States",
+        "countryCode": "US"
+    },
+    "currencyOptions": [
+        {
+            "symbol": "$",
+            "code": "USD",
+            "multiplier": 1,
+            "icon": "/images/united-states.svg",
+            "country": "United States",
+            "countryCode": "US"
+        },
+        {
+            "symbol": "£",
+            "code": "GBP",
+            "multiplier": 0.78,
+            "icon": "/images/united-kingdom.svg",
+            "country": "United Kingdom",
+            "countryCode": "UK"
+        },
+        {
+            "symbol": "€",
+            "code": "EUR",
+            "multiplier": 0.9,
+            "icon": "/images/european-union.svg",
+            "country": "European Union",
+            "countryCode": "EU"
+        },
+        {
+            "symbol": "₦",
+            "code": "NGN",
+            "multiplier": 784.84,
+            "icon": "/images/nigeria.svg",
+            "country": "Nigeria",
+            "countryCode": "NG"
+        },
+        {
+            "symbol": "₹",
+            "code": "INR",
+            "multiplier": 82.03,
+            "icon": "/images/india.svg",
+            "country": "India",
+            "countryCode": "IN"
+        }
+    ],
+    "language": {
+        "code": "EN",
+        "name": "English"
+    },
+    "languageOptions": [
+        {
+            "code": "EN",
+            "name": "English"
+        }
+    ],
+    "standardShippingCostInUsd": 40
+}
