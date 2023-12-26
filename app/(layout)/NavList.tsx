@@ -101,7 +101,7 @@ export default function NavList() {
                 <NavigationMenu.Item>
                     <NavigationMenu.Link
                         className="NavigationMenuLink"
-                        href="/deals"
+                        href="https://tben.me/contact"
                     >
                         Contact
                     </NavigationMenu.Link>

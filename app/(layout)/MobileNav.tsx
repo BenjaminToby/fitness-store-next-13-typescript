@@ -54,7 +54,7 @@ export default function MobileNav() {
                     <hr />
 
                     <a href="/Deals">Deals</a>
-                    <a href="/Deals">Contact Us</a>
+                    <a href="https://tben.me/contact">Contact Us</a>
                 </div>
             </GeneralDrawer>
         </div>

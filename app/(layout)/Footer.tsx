@@ -22,13 +22,23 @@ export default function Footer() {
                 }}
             >
                 <div className="flex flex-col items-start max-w-[300px] gap-4">
-                    <a
-                        href="/"
-                        className="text-[white] text-[36px] skew"
-                    >
-                        <span className={fonts?.db20.className + " text-3xl font-bold whitespace-nowrap"}>BASE</span>
+                    <a href="/" className="text-[white] text-[36px] skew">
+                        <span
+                            className={
+                                fonts?.db20.className +
+                                " text-3xl font-bold whitespace-nowrap"
+                            }
+                        >
+                            BASE
+                        </span>
                     </a>
-                    <span className="opacity-50 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, maiores. Sed harum laudantium rerum, rem expedita unde, accusamus facilis cumque ipsam dolorum, velit in obcaecati possimus magni sapiente dolore culpa!</span>
+                    <span className="opacity-50 text-sm">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Assumenda, maiores. Sed harum laudantium rerum,
+                        rem expedita unde, accusamus facilis cumque ipsam
+                        dolorum, velit in obcaecati possimus magni sapiente
+                        dolore culpa!
+                    </span>
                 </div>
 
                 <div className="flex items-start gap-10 grow justify-between flex-wrap">
@@ -49,17 +59,21 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-col items-start text-left gap-4">
                         <h3>Support</h3>
-                        <a href="/men">Support</a>
-                        <a href="/men">Shipping and Returns</a>
-                        <a href="/men">Contact us</a>
-                        <a href="/men">FAQ</a>
+                        <a href="https://tben.me/contact">Support</a>
+                        <a href="https://tben.me/contact">
+                            Shipping and Returns
+                        </a>
+                        <a href="https://tben.me/contact">Contact us</a>
+                        <a href="https://tben.me/contact">FAQ</a>
                     </div>
                     <div className="flex flex-col items-start text-left gap-4">
                         <h3>About</h3>
-                        <a href="/men">Company</a>
-                        <a href="/men">Terms and Conditions</a>
-                        <a href="/men">Privacy Policy</a>
-                        <a href="/men">Shipping Policy</a>
+                        <a href="https://tben.me/contact">Company</a>
+                        <a href="https://tben.me/contact">
+                            Terms and Conditions
+                        </a>
+                        <a href="https://tben.me/contact">Privacy Policy</a>
+                        <a href="https://tben.me/contact">Shipping Policy</a>
                     </div>
                 </div>
             </div>
@@ -72,7 +86,10 @@ export default function Footer() {
                     gap: "40px 100px",
                 }}
             >
-                <span className="text-sm opacity-60">Copyright {new Date().getFullYear()} Basewears. All rights reserved</span>
+                <span className="text-sm opacity-60">
+                    Copyright {new Date().getFullYear()} Basewears. All rights
+                    reserved
+                </span>
             </div>
         </footer>
     );
