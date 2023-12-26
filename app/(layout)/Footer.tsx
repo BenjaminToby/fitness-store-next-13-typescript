@@ -88,7 +88,10 @@ export default function Footer() {
             >
                 <span className="text-sm opacity-60">
                     Copyright {new Date().getFullYear()} Basewears. All rights
-                    reserved
+                    reserved. Made by{" "}
+                    <a href="https://tben.me" target="_blank">
+                        Tben
+                    </a>
                 </span>
             </div>
         </footer>
